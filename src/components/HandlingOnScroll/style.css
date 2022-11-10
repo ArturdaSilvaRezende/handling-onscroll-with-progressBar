@@ -1,0 +1,17 @@
+.post {
+    max-width: 960px;
+    margin: 30px auto;
+    background-color: orange;
+    padding: 15px 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80vh;
+}
+
+.post > .post__item {
+    background-color: #fffdfd;
+    margin: 20px 25px;
+    padding: 30px 20px;
+    box-shadow: 0 2px 4px #999;
+    border-radius: 10px;
+}
